@@ -12,11 +12,7 @@ node_modules
 # .publish cache
 .publish
 # build dir
-webfile
-footer.html
-header.html
-head.html
-js.html
+*.html
 gulpfile.js
 package-lock.json
 package.json

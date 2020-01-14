@@ -1,0 +1,138 @@
+*:focus
+	outline: none
+body
+	background-color: rgba(89, 87, 87, .25)
+	font-size: 1rem
+	font-family: 'Ubuntu', sans-serif
+.flex
+	display: flex    
+	align-items: center
+a
+	display: inline-block
+	text-decoration: none
+	color: rgba(89, 87, 87, 1)
+.wrapper
+	width: 100%
+	max-width: 1024px
+	margin: 0 auto
+header
+	background-color: white
+	padding: 1.5rem 0
+	.logo
+		width: 30%
+		font-size: 3rem
+		font-weight: 700
+	.nav
+		width: 70%
+		text-align: right
+		a
+			margin: 0 .5rem
+footer
+	padding: 3rem 0
+	background-color: rgba(103, 135, 165, .5)
+	.footer-copyright
+		color: rgba(89, 87, 87, 1)
+		text-align: center
+		span
+			margin: 0 .25rem
+			&.block
+				margin: 0 2rem
+		a
+			color: rgba(89, 87, 87, 1)
+		.footer-wrapper,
+		.footer-copy
+			width: 50%
+		.footer-wrapper
+			text-align: left
+		.footer-copy
+			text-align: right
+.container
+	padding: 10px 0
+	.detail
+		.item
+			box-sizing: border-box
+			.item-content
+				box-sizing: border-box
+				i,
+				span
+					color: #888
+					transition: all 1s
+				div
+					width: 100%
+				.data-info
+					.flex
+						span
+							width: 50%
+							padding: .5rem 0
+							display: block
+							color: black
+							font-weight: 800
+							&:last-child
+								text-align: right
+								font-size: .75rem
+					p.info
+						color: #333
+						margin: .5rem 0
+						display: block
+				.data-img
+					text-align: center
+					padding: 8rem 0
+					font-size: 4rem
+					font-weight: 800
+					background-color: rgba(255, 255, 255, 1)
+					color: #888
+					text-shadow: 0.1em 0.1em 0.1em #ccc
+	.main
+		column-count: 3
+  		column-gap: 0
+		.item
+			box-sizing: border-box
+			break-inside: avoid
+			margin-bottom: 10px
+			.item-content
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				padding: 10px
+				height: auto
+				box-sizing: border-box
+				border: 1px solid #ccc
+				transition: all 1s
+				i,
+				span
+					color: #9e9e9e
+					transition: all 1s
+				div
+					width: 100%
+				.data-info
+					.flex
+						span
+							width: 50%
+							padding: .5rem 0
+							display: block
+							&:last-child
+								text-align: right
+								font-size: .75rem
+					.info
+						display: block
+				.data-img
+					text-align: center
+					padding: 3rem 0
+					font-size: 4rem
+					font-weight: 800
+					background-color: rgba(255, 255, 255, .25)
+					color: #9e9e9e
+					text-shadow: 0.1em 0.1em 0.1em #ccc
+			&:hover
+				.item-content
+					border: 1px solid #888
+					i,
+					span
+						color: black
+					span.info
+						color: grey
+					a > i
+						color: #c50016
+					.data-img
+						background-color: rgba(255, 255, 255, 8)
