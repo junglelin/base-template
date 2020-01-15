@@ -12,7 +12,6 @@ node_modules
 # .publish cache
 .publish
 # build dir
-*.html
 gulpfile.js
 package-lock.json
 package.json
